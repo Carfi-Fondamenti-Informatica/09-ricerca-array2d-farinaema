@@ -13,7 +13,7 @@ int main(){
     }
 
     for ( k = 0; k < 20; k++) {
-        nome[i]=' ';
+        nome[k]=' ';
     }
 
     for ( i = 0; i < 10; i++) {
