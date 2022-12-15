@@ -18,9 +18,7 @@ int main(){
     
     
     for ( i = 0; i < 10; i++) {
-        for ( j = 0; j < 20; j++) {
-            std::cin >> matrice[i][j];
-        }
+            std::cin >> matrice[i];
     }
 
     for ( k = 0; k < 20; k++) {
