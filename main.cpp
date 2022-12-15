@@ -17,9 +17,7 @@ int main(){
     }
 
     for ( i = 0; i < 10; i++) {
-        for ( j = 0; j < 20; j++) {
-            std::cin >> matrice[i][j];
-        }
+        std::cin >> matrice[i]; 
     }
 
     for ( k = 0; k < 20; k++) {
@@ -29,7 +27,7 @@ int main(){
 
     if (miao(matrice, nome)<10){
         std::cout << miao(matrice, nome) << std::endl;
-    } else if (miao(matrice, nome)==10){
+    } else {
         std::cout << "non presente" << std::endl;
     }
 
