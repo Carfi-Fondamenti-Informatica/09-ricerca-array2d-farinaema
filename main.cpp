@@ -15,9 +15,12 @@ int main(){
     for ( k = 0; k < 20; k++) {
         nome[k]=' ';
     }
-
+    
+    
     for ( i = 0; i < 10; i++) {
-        std::cin >> matrice[i]; 
+        for ( j = 0; j < 20; j++) {
+            std::cin >> matrice[i][j];
+        }
     }
 
     for ( k = 0; k < 20; k++) {
