@@ -1,6 +1,5 @@
 #include <iostream>
 #include "lib.h"
-using namespace std;
 
 int miao(char matrice[10][20], char nome[20]){
 
