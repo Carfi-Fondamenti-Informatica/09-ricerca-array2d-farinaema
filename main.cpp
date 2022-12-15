@@ -23,7 +23,7 @@ int main(){
     }
 
     for ( k = 0; k < 20; k++) {
-        std::cin >> nome[i];
+        std::cin >> nome[k];
     }
 
 
