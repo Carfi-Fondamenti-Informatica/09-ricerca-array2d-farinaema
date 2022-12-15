@@ -30,7 +30,7 @@ int main(){
     if (miao(matrice, nome)<10){
         std::cout << miao(matrice, nome) << std::endl;
     } else {
-        std::cout << "errore" << std::endl;
+        std::cout << "non presente" << std::endl;
     }
 
 }
