@@ -3,17 +3,15 @@
 
 int miao(char matrice[10][20], char nome[20]){
 
-    int i=0, j=0, k=0;
+    int i=0, k=0, conta=0;
 
     while(k < 19 and i <10){
         if (matrice[i][k]==nome[k]){
-            j++;
-            i++;
             k++;
-        } else {
+            conta++;
+        } else if (matrice[i][k]!=nome[k]) {
             i++;
-            k++;
         }
     }
-    return j;
+    return conta;
 }
