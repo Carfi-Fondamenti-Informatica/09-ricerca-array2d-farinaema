@@ -21,9 +21,7 @@ int main(){
             std::cin >> matrice[i];
     }
 
-    for ( k = 0; k < 20; k++) {
-        std::cin >> nome[k];
-    }
+        std::cin >> nome;
 
 
     if (miao(matrice, nome)<10){
