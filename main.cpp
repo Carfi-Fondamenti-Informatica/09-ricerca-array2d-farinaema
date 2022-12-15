@@ -9,24 +9,20 @@ int main(){
     for ( i = 0; i < 10; i++) {
         for ( j = 0; j < 20; j++) {
             matrice[i][j]=' ';
+            nome[j]=' ';
         }
     }
 
-    for ( k = 0; k < 20; k++) {
-        nome[k]=' ';
-    }
-    
-    
     for ( i = 0; i < 10; i++) {
             std::cin >> matrice[i];
     }
 
-        std::cin >> nome;
+    std::cin >> nome;
 
 
     if (miao(matrice, nome)<10){
         std::cout << miao(matrice, nome) << std::endl;
-    } else if (miao(matrice, nome)==10){
+    } else {
         std::cout << "non presente" << std::endl;
     }
 
