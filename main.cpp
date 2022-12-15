@@ -1,6 +1,5 @@
 #include <iostream>
 #include "lib.h"
-
 using namespace std;
 
 int main(){
@@ -20,19 +19,19 @@ int main(){
 
     for ( i = 0; i < 10; i++) {
         for ( j = 0; j < 20; j++) {
-            cin >> matrice[i][j];
+            std::cin >> matrice[i][j];
         }
     }
 
     for ( k = 0; k < 20; k++) {
-        cin >> nome[i];
+        std::cin >> nome[i];
     }
 
 
     if (miao(matrice, nome)<10){
-        cout << miao(matrice, nome) << endl;
+        std::cout << miao(matrice, nome) << std::endl;
     } else {
-        cout << "errore" << endl;
+        std::cout << "errore" << std::endl;
     }
 
 }
