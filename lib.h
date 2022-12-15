@@ -1,1 +1,1 @@
-int miao(char matrice[10][20], char nome[20])
+int miao(char matrice[10][20], char nome[20]);
