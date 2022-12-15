@@ -11,6 +11,7 @@ int miao(char matrice[10][20], char nome[20]){
             conta=i;
         } else if (matrice[i][k]!=nome[k]) {
             i++;
+            k=0;
         }
     }
     return conta;
